@@ -60,7 +60,7 @@ public class PHEV extends Automovil {
 
     @Override
     public String toString() {
-        return "PHEV{" + "km=" + km + ", motores=" + motores + ", remolque=" + remolque + ", x=" + x + '}';
+        return " cantidad de kilometros en modo eléctrico: " + km + ", cantidad de motores eléctricos: " + motores + ", capacidad de remolque: " + remolque + " toneladas, 4x4: " + x + '.';
     }
 
     public int calculo() throws miException{

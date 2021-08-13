@@ -41,7 +41,7 @@ public class HEV extends Automovil {
 
     @Override
     public String toString() {
-        return "Hibrido{" + "bateria=" + bateria + ", motor=" + motor + '}';
+        return "capacidad de la bateria: " + bateria + " kilowatts por hora, capacidad del motor eléctrico: " + motor + " kilowatts.";
     }
 
     public int calculo() throws miException{

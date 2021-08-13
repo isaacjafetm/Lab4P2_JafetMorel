@@ -66,7 +66,7 @@ public abstract class Automovil {
 
     @Override
     public String toString() {
-        return "Vehiculo{" + "model=" + model + ", vin=" + vin + ", carroceria=" + carroceria + ", pasajeros=" + pasajeros + ", maletero=" + maletero + '}';
+        return "Modelo: " + model + ", VIN: " + vin + ", Carroceria: " + carroceria + ", Capacidad de pasajeros: " + pasajeros + ", Capacidad de maletero: " + maletero + " litros, ";
     }
     
     public abstract int calculo() throws miException;

@@ -59,7 +59,7 @@ public class BEV extends Automovil {
 
     @Override
     public String toString() {
-        return "BEV{" + "km=" + km + ", baterias=" + baterias + ", aceleracion=" + aceleracion + ", carga=" + carga + '}';
+        return "cantidad de kilometros que puede recorrer (autonomía): " + km + ", cantidad de baterias que almacena: " + baterias + ", aceleracion de 0 a 100: " + aceleracion + " segundos, tiempo que dura la carga completa: " + carga + " minutos.";
     }
 
     public int calculo() throws miException {

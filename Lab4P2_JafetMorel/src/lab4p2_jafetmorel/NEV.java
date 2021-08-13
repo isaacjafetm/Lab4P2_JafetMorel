@@ -60,7 +60,7 @@ public class NEV extends Automovil {
 
     @Override
     public String toString() {
-        return "Combustion{" + "consumo=" + consumo + ", duracion=" + duracion + ", velocidad=" + velocidad + ", cambio=" + cambio + '}';
+        return "consumo de combustible: " + consumo + " kilometros por litro, duracion del aceite: " + duracion + " meses, velocidad máxima: " + velocidad + ", tipo de cambio: " + cambio + '.';
     }
 
     public int calculo() throws miException{
